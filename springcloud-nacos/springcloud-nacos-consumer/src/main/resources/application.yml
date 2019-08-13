@@ -1,0 +1,15 @@
+server:
+  port: 8763
+spring:
+  application:
+    name: nacos-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 134.175.12.243:8848
+# 是对外暴露该服务信息
+management:
+    endpoints:
+      web:
+        exposure:
+          include: '*'

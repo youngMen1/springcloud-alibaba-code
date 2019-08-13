@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/springcloud-alibaba-code.iml" filepath="$PROJECT_DIR$/.idea/springcloud-alibaba-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-nacos/springcloud-nacos.iml" filepath="$PROJECT_DIR$/springcloud-nacos/springcloud-nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-nacos/springcloud-nacos-consumer/springcloud-nacos-consumer.iml" filepath="$PROJECT_DIR$/springcloud-nacos/springcloud-nacos-consumer/springcloud-nacos-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-nacos/springcloud-nacos-provider/springcloud-nacos-provider.iml" filepath="$PROJECT_DIR$/springcloud-nacos/springcloud-nacos-provider/springcloud-nacos-provider.iml" />
+    </modules>
+  </component>
+</project>
