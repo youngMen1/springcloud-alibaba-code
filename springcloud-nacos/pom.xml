@@ -21,15 +21,14 @@
     <modules>
         <module>springcloud-nacos-provider</module>
         <module>springcloud-nacos-consumer</module>
+        <module>springcloud-nacos-config</module>
     </modules>
-
 
     <properties>
         <java.version>1.8</java.version>
     </properties>
 
     <dependencies>
-
         <!--WEB-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -46,7 +45,6 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
 
     <build>
