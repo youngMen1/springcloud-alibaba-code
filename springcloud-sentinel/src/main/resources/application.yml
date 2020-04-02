@@ -6,11 +6,11 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 134.175.12.243:8848
+        server-addr: localhost:8848
     sentinel:
       transport:
         port: 8719
-        dashboard: 134.175.12.243:8080
+        dashboard: 47.107.152.93:8080
 # 是对外暴露该服务信息
 management:
   endpoints:

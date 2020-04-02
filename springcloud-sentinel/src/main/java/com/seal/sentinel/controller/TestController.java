@@ -14,10 +14,7 @@ public class TestController {
 
     @GetMapping("/hi")
     @SentinelResource(value = "hi")
-    public String hi(@RequestParam(value = "name", defaultValue = "forezp", required = false) String name) {
-
+    public String hi(@RequestParam(value = "name", defaultValue = "封志强", required = false) String name) {
         return "hi " + name;
     }
-
-
 }

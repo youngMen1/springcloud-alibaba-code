@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
     @GetMapping("/hi")
-    public String hello(@RequestParam(value = "name", defaultValue = "forezp", required = false) String name) {
+    public String hello(@RequestParam(value = "name", defaultValue = "fengzhiqiang", required = false) String name) {
 
         return "hi " + name;
     }
