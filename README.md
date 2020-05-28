@@ -1,5 +1,8 @@
-## Spring Cloud Alibaba
-
+# Spring Cloud Alibaba
+## 模块说明
+ Nacos：注册中心和配置中心
+ Sentinel：流量控制、熔断降级
+ 
 ## Nacos
 注册中心
 配置中心
